@@ -334,6 +334,10 @@ body{
 
 @media (min-width: 600px){
 
+    .services{
+        padding:
+    }
+
     .call-action h2{
         font-size: 36px;
     }
