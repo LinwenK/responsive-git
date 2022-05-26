@@ -330,3 +330,58 @@ body{
 
 
 }
+
+
+@media (min-width: 600px){
+
+    .about{
+        padding: 5% 0 5%;
+    }
+
+    .about h2{
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+
+    .about div{
+        padding-top: 3%;
+    }
+
+    .about figure{
+        padding: 2% 0 2%;
+    }
+
+
+    /************/
+
+
+    .testimonials{
+        min-height: 20vh;
+    }
+
+    .testimonials h2{
+        padding-bottom: 2%;
+        font-size: 36px;
+    }
+
+    .testimonials p{
+        font-size: 26px;
+        padding-top: 2%;
+    }
+
+
+    /************/
+
+
+    footer{
+        min-height: 15vh;
+    }
+
+    footer div, footer span{
+        justify-content: center;
+        column-gap: 15px;
+    }
+
+
+
+}
