@@ -335,6 +335,22 @@ body{
 @media (min-width: 600px){
 
 
+    header {
+        font-size: 26px;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    details > ul {
+        width: 30%;
+    }
+
+
+
+    /************/
+
 
     .features{
         padding-top: 3%;
@@ -471,5 +487,54 @@ body{
     }
 
 
+
+}
+
+
+@media (min-width: 1000px){
+
+    /************/
+
+    
+    .about h2{
+        padding-bottom: 2%;
+    }
+
+    .about div{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .about div figure{
+        width: 30%;
+        padding: 0;
+    }
+
+
+
+    /************/
+
+
+    .testimonials{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .testimonials h2{
+        font-size: 50px;
+    }
+
+    .testimonials p{
+        font-size: 30px;
+    }
+
+
+    /************/
+
+    footer [class*="fa-"]{
+        font-size: 50px;
+    }
 
 }
